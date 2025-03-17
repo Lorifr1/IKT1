@@ -9,7 +9,7 @@ h1{
 img{
     width: 300px;
     margin: 30px;
-    border: 5 px solid black;
+    border: 5 px solid white    ;
     border-radius: 20px;
     transition: 1s;
 }

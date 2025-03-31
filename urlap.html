@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    <h2>Pizza rendelés</h2>
+    <form>
+        <fieldset>
+            <legend>Személyes adatok</legend>
+            <label for="nev">Név: </label><input type="text" name="nev" id="nev"><br><br>
+            <label for="email">Email: </label><input type="email" name="email" id="email"><br><br>
+            <label for="tel">Telefonszám: </label><input type="tel" name="tel" id="tel"><br><br>
+            <label for="cim">Lakcím: </label><input type="text" name="cim" id="cim"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>rendelés</legend>
+            <input type="radio" name="alap" id=""><label for=""></label>
+            <input type="radio" name="alap" id="paradicsom"><label for="paradicsom"></label>
+            <input type="radio" name="alap" id="tejfol"> <label for="tejfolos">tejfölös alap</label><br><br>
+            <label for="">Feltétek:</label>
+            <input type="checkbox" name=feltet1"" id="feltet1">sonka<label for="feltet1"></label>
+            <input type="checkbox" name="feltet2" id="feltet2">szalámi<label for="feltet2"></label><br>
+            <input type="checkbox" name=feltet3"" id="feltet3">kolbász<label for="feltet3"></label>
+            <input type="checkbox" name=feltet4"" id="feltet4">bacon<label for="feltet4"></label>
+            <input type="checkbox" name=feltet5"" id="feltet5">sajtí<label for="feltet5"></label>
+            <label for="uzenet">Megjegyzés:</label><br>
+            <textarea name="text" id="uzenet" cols="30" rows="10"></textarea>
+            
+        </fieldset>
+        <br>
+        <button type="submit">küldés</button>
+    </form>
+</body>
+</html>
